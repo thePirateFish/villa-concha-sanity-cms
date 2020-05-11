@@ -6,8 +6,16 @@ import schemaTypes from 'all:part:@sanity/base/schema-type'
 
 // document schemas
 import siteSettings from './documents/siteSettings'
+import pages from './documents/pages'
+
 
 // Object types
+import link from './objects/link'
+import video from './objects/video'
+import subsection from './objects/subsection'
+import section from './objects/section'
+import navbar from './documents/navbar'
+
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -18,7 +26,13 @@ export default createSchema({
   types: schemaTypes.concat([
     // The following are document types which will appear
     // in the studio.
-    siteSettings
+    siteSettings,
+    video,
+    subsection,
+    section,
+    link,
+    navbar,
+    pages
 
     // When added to this list, object types can be used as
     // { type: 'typename' } in other document schemas
