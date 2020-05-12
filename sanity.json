@@ -13,12 +13,27 @@
     "@sanity/default-layout",
     "@sanity/default-login",
     "@sanity/desk-tool",
-    "mux-input"
+    "mux-input",
+    "@sanity/dashboard",
+    "dashboard-widget-netlify",
+    "dashboard-widget-gatsby"
   ],
   "parts": [
     {
       "name": "part:@sanity/base/schema",
       "path": "./schemas/schema.js"
+    },
+    {
+      "implements": "part:@sanity/dashboard/config",
+      "path": "plugins/dashboardConfig.js"
+    },
+    {
+      "implements": "part:@sanity/dashboard/config",
+      "path": "plugins/dashboardConfig.js"
+    },
+    {
+      "implements": "part:@sanity/dashboard/config",
+      "path": "plugins/dashboardConfig.js"
     }
   ]
 }

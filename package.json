@@ -17,7 +17,7 @@
     "@sanity/cli": "^1.149.9",
     "@sanity/components": "^1.149.10",
     "@sanity/core": "^1.149.12",
-    "@sanity/dashboard": "^1.149.10",
+    "@sanity/dashboard": "^1.149.13",
     "@sanity/default-layout": "^1.149.10",
     "@sanity/default-login": "^1.149.11",
     "@sanity/desk-tool": "^1.149.10",
@@ -28,6 +28,7 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "sanity-plugin-dashboard-widget-document-list": "^0.0.10",
+    "sanity-plugin-dashboard-widget-gatsby": "^1.0.9",
     "sanity-plugin-dashboard-widget-netlify": "^1.0.1",
     "sanity-plugin-mux-input": "^0.2.1"
   },
