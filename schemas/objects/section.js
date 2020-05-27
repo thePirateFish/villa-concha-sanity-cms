@@ -44,6 +44,11 @@ export default {
         of: [{
             type: 'link',
         }]
+      },
+      {
+        name: 'coordinates',
+        type: 'geopoint',
+        title: 'Coordinates'
       }
     ]
   }
