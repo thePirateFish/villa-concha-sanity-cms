@@ -17,6 +17,7 @@ import video from './objects/video'
 import subsection from './objects/subsection'
 import mapSubsection from './objects/mapSubsection'
 import section from './objects/section'
+import content from './objects/content'
 
 
 
@@ -37,6 +38,7 @@ export default createSchema({
     navbar,
     pages,
     footer,
+    content
     // mapSubsection
 
     // When added to this list, object types can be used as

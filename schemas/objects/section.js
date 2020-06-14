@@ -16,7 +16,7 @@ export default {
       },
       {
         name: 'body',
-        type: 'text',
+        type: 'content',
         title: 'Body',
         description: 'The written content.'
       },
